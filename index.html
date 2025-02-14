@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-
+		<title> pagina de prueba </title>
     </head>
     <body>
 			<!-- Comentario 1 -->
@@ -15,20 +15,21 @@
                 <a href="#p3"> Parrafo 3 </a>
 
                 <h3> Listas de gatos </h3>
-                <p>Cosas que los <s> gatos </s> <em> aman: </em> </p>
-                <ul>
-                    <li>Comer</li>
-                    <li>dormir</li>
-                    <li>jugar</li>
-                </ul>
-
-                <h3>cosas que los <s> gatos </s> <em> odian: </em> </h3>
-                <ol>
-                    <li>hacer ejercicio</li>
-                    <li>bañarse</li>
-                    <li>truenos</li>
-                </ol>
-
+				<div>
+					<p>Cosas que los <s> gatos </s> <em> aman: </em> </p>
+					<ul>
+						<li>Comer</li>
+						<li>dormir</li>
+						<li>jugar</li>
+					</ul>
+					<hr>
+                	<h3>cosas que los <s> gatos </s> <em> odian: </em> </h3>
+                	<ol>
+                    	<li>hacer ejercicio</li>
+                    	<li>bañarse</li>
+                    	<li>truenos</li>
+                	</ol>
+				</div>
 				<a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> <img src="https://bit.ly/fcc-relaxing-cat" alt="perfil"> </a>
 
                 <h3 id="p1"> Parrafo 1 </h3>
@@ -39,6 +40,26 @@
 
                 <h3 id="p3"> Parrafo 3 </h3>
                 <p> <strong> Lorem Ipsum </strong> es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum. </p>
+
+				<form action="/enviar-respuesta">
+					<label for="nombre"> Nombre </label>
+					<input type="text" placeholder="ingrese el nombre" required>
+					<br>
+					<label for="bueno"> <input type="checkbox" name="pet" id="bueno" value="bueno" checked> Bueno </label>
+					<label for="malo"> <input type="checkbox" name="pet" id="malo" value="malo"> Malo </label>
+					
+					<label for="masculino">
+						<input type="radio" name="sexo" id="masculino" value="masculino" checked> Masulino
+					</label>
+					<label for="femenino">
+						<input type="radio" name="sexo" id="femenino" value="femenino"> Femenino
+					</label>
+					<br>
+					<button type="submit"> Enviar </button>
+				</form>
 			</main>
+			<footer>
+				<p> <small> pie de pagina julilc324 </small> </p>
+			</footer>
     </body>  
 </html>
