@@ -1,0 +1,58 @@
+/*Selector de tipo*/
+h3{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+div {
+    background-color: aqua;
+    /*padding: 15px;
+    margin: 20px;*/
+
+}
+
+img {
+    width: 200px;
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid;
+    /*border-radius: 20px;*/
+}
+
+
+/*Selector de tipo clase*/
+.titulo{
+    color: red;
+    /*font-size: 50px;*/
+    font-family: "Roboto", serif;
+}
+
+/* Selector de tipo id */
+#p3 {
+    color: blueviolet;
+}
+
+/*Selector de tipo atributo*/
+img[alt]{
+
+    border-radius: 30px;
+}
+
+input[type="radio"]{
+
+    margin: 15px;
+}
+
+a[href="https://www.google.com"]{
+    color: green;
+    text-decoration: none;
+}
+
+/* unidades absolutas y relativas */ 
+#contenedorp{
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
