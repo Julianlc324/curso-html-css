@@ -1,9 +1,9 @@
-body{
+/*body{
     background-color: brown;
-}
+}*/
 
 
-/*Selector de tipo*/
+/*Selector de tipo
 h3{
     color: green;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -11,8 +11,8 @@ h3{
 
 div {
     background-color: aqua;
-    /*padding: 15px;
-    margin: 20px;*/
+    padding: 15px;
+    margin: 20px;
 
 }
 
@@ -21,23 +21,23 @@ img {
     border-width: 5px;
     border-color: blue;
     border-style: solid;
-    /*border-radius: 20px;*/
-}
+    border-radius: 20px;
+}*/
 
 
-/*Selector de tipo clase*/
+/*Selector de tipo clase
 .titulo{
     color: red;
-    /*font-size: 50px;*/
+    font-size: 50px;
     font-family: "Roboto", serif;
-}
+}*/
 
-/* Selector de tipo id */
+/* Selector de tipo id
 #p3 {
     color: blueviolet;
-}
+}*/
 
-/*Selector de tipo atributo*/
+/*Selector de tipo atributo
 img[alt]{
 
     border-radius: 30px;
@@ -51,9 +51,9 @@ input[type="radio"]{
 a[href="https://www.google.com"]{
     color: green;
     text-decoration: none;
-}
+}*/
 
-/* unidades absolutas y relativas */ 
+/* unidades absolutas y relativas 
 #contenedorp{
     color: white;
     padding: 5px;
@@ -65,19 +65,19 @@ a[href="https://www.google.com"]{
 .px{
     background-color: crimson;
     width: 200px;
-}
+}*/
 
-/*relativa adaptativa al ancho de la pagina */
+/*relativa adaptativa al ancho de la pagina
 .vw{
     background-color: blueviolet;
     width: 20vw;
-}
+}*/
 
-/*relativa adaptativa tamaño de la letra */
+/*relativa adaptativa tamaño de la letra
 .em{
     background-color: green;
     width: 15em;
-}
+}*/
 
 
 

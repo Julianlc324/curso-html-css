@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*height: 5rem;*/
+}
+
+li{
+    background-color: chocolate;
+    color: white;
+    border: dashed black;
+    padding: 0.3rem 0.7rem;
+}
+
+/*Seccion flexbox*/
+/*li:nth-child(2){
+    font-size: 2rem;
+}*/
+
+ul{
+    /*display: inline-flex;*/
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*align-items: baseline;*/
+    /*align-items: last baseline;*/
+    /*flex-wrap: wrap;*/ /*ordena contenido de acuerdo al tamaño de la pagina*/
+    /*align-content flex-start;*/ /*ordena contenido al inicio sin importar la altura del cajon */
+    /*align-content: flex-end;*/ /*ordena contenido al final sin importar la altura del cajon */
+    /*align-content: center;*/ /*ordena contenido centro sin importar la altura del cajon */
+    /*align-content: space-between;*/ /*espacio entre elementos */
+    /*align-content: stretch;*/ /* ocupa todo el esacio cada elemnto*/
+    /*align-content: safe center;*/
+    /*row-gap: 0.3rem;*/ /*espaciado entre fila */
+    /*column-gap: 0.3rem*/ /*espaciado entre columna*/;
+
+    /*align-items: flex-end;*/
+    /*align-items: flex-start;*/
+    /*align-items: stretch;*/
+    /*flex-wrap: row wrap; ordena contenido de acuerdo al tamaño de la pagina pero inversa*/
+    /*flex-wrap: wrap-reverse;*/
+
+    /*flex-flow: column;*/
+    /*flex-flow: column-reverse;*/
+
+
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: row;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-evenly;*/
+
+}
+
+li:nth-child(2){
+    order: -3; /*ordena los elementos*/
+    color: brown;
+}
+
+li{
+    flex-grow: 1;/*toma el espacio residual*/
+}
